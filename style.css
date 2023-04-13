@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+h2{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.background-image{
+    background-image: url(images/bg-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.background-image button:hover{
+    background-color: brown!important;
+    color:white;
+}
+.bg-white img{
+    max-width: 100px;
+    height: 100px;
+}
+.background-image_1{
+    background-image: url(images/bg-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
